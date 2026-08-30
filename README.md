@@ -80,6 +80,12 @@ Handles family caregiving paperwork — bookings, documents, follow-ups — unde
 
 <br />
 
+## Activity
+
+<img src="assets/contrib.svg" alt="Contribution activity over the last 12 months" width="100%" />
+
+<sub>Rendered from the GitHub GraphQL API by <a href="scripts/build_contrib.py">scripts/build_contrib.py</a> and rebuilt daily by <a href=".github/workflows/profile-graph.yml">a workflow in this repo</a> — no third-party widget service, so it never rate-limits.</sub>
+
 ## How I build
 
 | | |
