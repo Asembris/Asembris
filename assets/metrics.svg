@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 190" width="1200" height="190" role="img" aria-label="Headline metrics: 100 second kill chain reconstruction, 1.00 accuracy collapsing to 0.675 under ablation, 0 of 320 unauthorized actions">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0F1A2E"/>
+      <stop offset="100%" stop-color="#0B1220"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="190" rx="14" fill="#080D18"/>
+
+  <g font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif">
+    <!-- card 1 -->
+    <g transform="translate(24,22)">
+      <rect width="368" height="146" rx="12" fill="url(#card)" stroke="#1E293B" stroke-width="1.2"/>
+      <rect x="0" y="0" width="368" height="3" rx="1.5" fill="url(#acc)"/>
+      <text x="24" y="40" fill="#64748B" font-size="12" font-weight="600" letter-spacing="2.4">SPLUNK SENTINEL</text>
+      <text x="24" y="92" fill="#F8FAFC" font-size="46" font-weight="700">~100<tspan font-size="25" fill="#7DD3FC">s</tspan></text>
+      <text x="24" y="118" fill="#94A3B8" font-size="14">Attack kill chain reconstructed</text>
+      <text x="24" y="138" fill="#475569" font-size="13">Analyst baseline: ~4 hours</text>
+    </g>
+
+    <!-- card 2 -->
+    <g transform="translate(416,22)">
+      <rect width="368" height="146" rx="12" fill="url(#card)" stroke="#1E293B" stroke-width="1.2"/>
+      <rect x="0" y="0" width="368" height="3" rx="1.5" fill="url(#acc)"/>
+      <text x="24" y="40" fill="#64748B" font-size="12" font-weight="600" letter-spacing="2.4">ATTEST</text>
+      <text x="24" y="92" fill="#F8FAFC" font-size="46" font-weight="700">1.00<tspan font-size="25" fill="#475569"> → </tspan><tspan font-size="34" fill="#F87171">0.675</tspan></text>
+      <text x="24" y="118" fill="#94A3B8" font-size="14">Accuracy, then one checker sabotaged</text>
+      <text x="24" y="138" fill="#475569" font-size="13">The ablation that proves the metric</text>
+    </g>
+
+    <!-- card 3 -->
+    <g transform="translate(808,22)">
+      <rect width="368" height="146" rx="12" fill="url(#card)" stroke="#1E293B" stroke-width="1.2"/>
+      <rect x="0" y="0" width="368" height="3" rx="1.5" fill="url(#acc)"/>
+      <text x="24" y="40" fill="#64748B" font-size="12" font-weight="600" letter-spacing="2.4">CARELOOP</text>
+      <text x="24" y="92" fill="#F8FAFC" font-size="46" font-weight="700">0<tspan font-size="25" fill="#475569"> / </tspan><tspan font-size="34">320</tspan></text>
+      <text x="24" y="118" fill="#94A3B8" font-size="14">Adversarial attempts authorized</text>
+      <text x="24" y="138" fill="#475569" font-size="13">Without the authority layer: 320 / 320</text>
+    </g>
+  </g>
+</svg>

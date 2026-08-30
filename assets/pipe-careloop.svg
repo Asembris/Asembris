@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 190" width="1200" height="190" role="img" aria-label="CareLoop authority model: agent proposal, policy engine, provider action, independent re-read confirmation">
+  <defs>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38BDF8"/><stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+    <linearGradient id="node" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0F1A2E"/><stop offset="100%" stop-color="#0B1220"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="190" rx="12" fill="#080D18"/>
+  <rect x="0" y="0" width="1200" height="3" rx="1.5" fill="url(#acc)" opacity="0.85"/>
+  <g font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif">
+    <text x="28" y="38" fill="#64748B" font-size="12" font-weight="600" letter-spacing="2.4">CARELOOP &#183; AUTHORITY MODEL</text>
+    <rect x="28.0" y="58" width="274.0" height="74" rx="10" fill="url(#node)" stroke="#334155" stroke-width="1.2"/>
+    <text x="165.0" y="90" fill="#E2E8F0" font-size="13.5" font-weight="600" text-anchor="middle">AGENT</text>
+    <text x="165.0" y="110" fill="#64748B" font-size="11.5" text-anchor="middle">proposes, holds no tools</text>
+    <path d="M304.0 95.0 L314.0 95.0" stroke="#475569" stroke-width="1.5"/>
+    <path d="M310.0 91.0 L315.0 95.0 L310.0 99.0 Z" fill="#475569"/>
+    <rect x="318.0" y="58" width="274.0" height="74" rx="10" fill="url(#node)" stroke="#38BDF8" stroke-width="1.7"/>
+    <text x="455.0" y="90" fill="#7DD3FC" font-size="13.5" font-weight="600" text-anchor="middle">POLICY ENGINE</text>
+    <text x="455.0" y="110" fill="#64748B" font-size="11.5" text-anchor="middle">rules.yaml, 2 checkpoints</text>
+    <path d="M594.0 95.0 L604.0 95.0" stroke="#475569" stroke-width="1.5"/>
+    <path d="M600.0 91.0 L605.0 95.0 L600.0 99.0 Z" fill="#475569"/>
+    <rect x="608.0" y="58" width="274.0" height="74" rx="10" fill="url(#node)" stroke="#334155" stroke-width="1.2"/>
+    <text x="745.0" y="90" fill="#E2E8F0" font-size="13.5" font-weight="600" text-anchor="middle">PROVIDER</text>
+    <text x="745.0" y="110" fill="#64748B" font-size="11.5" text-anchor="middle">the only actor with reach</text>
+    <path d="M884.0 95.0 L894.0 95.0" stroke="#475569" stroke-width="1.5"/>
+    <path d="M890.0 91.0 L895.0 95.0 L890.0 99.0 Z" fill="#475569"/>
+    <rect x="898.0" y="58" width="274.0" height="74" rx="10" fill="url(#node)" stroke="#34D399" stroke-width="1.5"/>
+    <text x="1035.0" y="90" fill="#6EE7B7" font-size="13.5" font-weight="600" text-anchor="middle">RE-READ</text>
+    <text x="1035.0" y="110" fill="#64748B" font-size="11.5" text-anchor="middle">external state confirms</text>
+    <rect x="28" y="154" width="3" height="20" rx="1.5" fill="url(#acc)"/>
+    <text x="42" y="169" fill="#94A3B8" font-size="13.5">Two independent enforcement points. Facts carry {source_doc, page, trust_level} provenance.</text>
+  </g>
+</svg>
