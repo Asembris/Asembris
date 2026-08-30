@@ -100,13 +100,11 @@ Handles family caregiving paperwork — bookings, documents, follow-ups — unde
 | **Data** | <img src="https://img.shields.io/badge/PostgreSQL-0F1A2E?style=flat-square&logo=postgresql&logoColor=7DD3FC" /> <img src="https://img.shields.io/badge/CockroachDB-0F1A2E?style=flat-square" /> <img src="https://img.shields.io/badge/Supabase-0F1A2E?style=flat-square&logo=supabase&logoColor=7DD3FC" /> <img src="https://img.shields.io/badge/Qdrant-0F1A2E?style=flat-square&logo=qdrant&logoColor=7DD3FC" /> <img src="https://img.shields.io/badge/ChromaDB-0F1A2E?style=flat-square" /> <img src="https://img.shields.io/badge/SQLite-0F1A2E?style=flat-square&logo=sqlite&logoColor=7DD3FC" /> |
 | **Observability** | <img src="https://img.shields.io/badge/LangSmith-0F1A2E?style=flat-square" /> <img src="https://img.shields.io/badge/Langfuse-0F1A2E?style=flat-square" /> |
 
-## Currently
-
-Building a governed cross-origin capability layer for the emerging **WebMCP** standard — one browser agent operating across three independent companies' web apps while remaining *structurally* unable to authorize anything.
-
 ## Background
 
-AI engineering at **ESPRIT**, Tunisia &nbsp;·&nbsp; Head Trainer, ACM ESPRIT Student Chapter &nbsp;·&nbsp; Teaching assistant and organizer at **MASSAI 2026** (agentic AI, MLOps, AI security)
+- AI engineering at **ESPRIT**, Tunisia
+- Teaching Assistant, **MASSAI 2026** — agentic AI, MLOps and AI security workshops (July 6–9, 2026)
+- Former Head Trainer, **ACM ESPRIT Student Chapter** (2025–2026)
 
 <p align="center">
   <a href="https://www.linkedin.com/in/med-aziz-ayari/"><img src="https://img.shields.io/badge/Let's%20talk%20on%20LinkedIn-0F1A2E?style=for-the-badge&logo=linkedin&logoColor=7DD3FC" alt="LinkedIn" /></a>
