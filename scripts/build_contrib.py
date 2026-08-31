@@ -154,13 +154,15 @@ def build(cc):
     p.append(f'    <text x="{X0+34+len(LEVELS)*18+6}" y="{legend_y+11}" fill="#334155" font-size="10.5">More</text>')
 
     # stat tiles
+    active = sum(1 for d in days if d["contributionCount"] > 0)
+    peak_week = max((sum(d["contributionCount"] for d in w["contributionDays"]) for w in weeks), default=0)
     stats = [
         ("COMMITS", f'{cc["totalCommitContributions"]:,}'),
-        ("PULL REQUESTS", f'{cc["totalPullRequestContributions"]:,}'),
-        ("REVIEWS", f'{cc["totalPullRequestReviewContributions"]:,}'),
-        ("REPOS CREATED", f'{cc["totalRepositoryContributions"]:,}'),
+        ("ACTIVE DAYS", f"{active}"),
         ("LONGEST STREAK", f"{longest} days"),
         ("BUSIEST DAY", f'{busiest["contributionCount"]}' if busiest else "0"),
+        ("BUSIEST WEEK", f"{peak_week}"),
+        ("REPOS CREATED", f'{cc["totalRepositoryContributions"]:,}'),
     ]
     ty, th = legend_y + 34, 62
     tw = (1200 - 56 - 5*12) / 6
